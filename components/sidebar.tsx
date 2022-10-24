@@ -91,7 +91,7 @@ const Sidebar = () => {
             <Box height="65%" overflowY="auto" paddingBottom="20px">
                   <List spacing={3}>
                     {playlists.map(playlist => (
-                      <ListItem paddingX="20px">
+                      <ListItem paddingX="20px" >
                         <LinkBox>
                           <NextLink href="/" passHref>
                             <LinkOverlay>
